@@ -1,0 +1,65 @@
+.login {
+    font-family: Poppins;
+}
+
+.container {
+    margin: 50px;
+}
+
+.main-row {
+    height: 500px;
+}
+
+.col {
+    /*border-style: solid;
+    border-width: 1px;   */
+}
+
+.separator {
+    margin: 90px;
+}
+
+#title {
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: blue;*/
+    margin: 170px 20px;
+    max-width: 440px;
+    height: 200px;
+}
+
+.col h1 {
+    color: #609966;
+    height: max-content;
+}
+
+#login-card {
+    border-radius: 20px;
+    background: #9DC08B;
+    padding: 30px;
+    height: 600px;
+    font-family: Istok Web;
+}
+
+#login-card-title {
+    color: white;
+    font-weight: bold;
+}
+
+.login-card-element {
+    text-align: center;
+    height: 50px;
+}
+
+#login-logo {
+    height: 150px;
+}
+
+.login-logo-container {
+    height: 110px;
+}
+
+.login-details {
+    text-align: left;
+    height: 70px;
+}
