@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './SignUp.css';
 
 function SignUp() {
@@ -44,7 +45,7 @@ function SignUp() {
               </div>
               <div className="row">
                 <div className="col signUp-card-element">
-                <button type="button" className="btn btn-light rounded" id="signUp-btn">Agree and Sign Up</button>
+                <button type="button" className="btn btn-light rounded" id="signUp-btn"><Link to="/OTPForm">Agree and Sign Up</Link></button>
                 </div>
               </div>
               <div className="row">
