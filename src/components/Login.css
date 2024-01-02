@@ -10,13 +10,13 @@
     height: 500px;
 }
 
-/*.col {
-    border-style: solid;
-    border-width: 1px;   
-}*/
+.col {
+    /*border-style: solid;
+    border-width: 1px;*/
+}
 
 .separator {
-    margin: 90px;
+    margin: 0 50px !important;
 }
 
 #title {
@@ -35,9 +35,13 @@
 
 #login-card {
     border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #609966;
     background: #9DC08B;
-    padding: 30px 65px;
-    height: 700px;
+    max-width: 550px;
+    padding: 30px 50px;
+    height: 725px;
     font-family: Istok Web;
 }
 

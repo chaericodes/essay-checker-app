@@ -1,6 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom"
 import './Login.css';
-import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -66,7 +66,7 @@ function Login() {
               </div>
               <div className="row">
                 <div className="col login-card-element sign-up-question">
-                  <span className="question">Don't have any account?</span> <span><a href="#" id="sign-up-link">Sign up here.</a></span>
+                  <span className="question">Don't have any account?</span> <span><Link to="/signUp" id="sign-up-link">Sign up here.</Link></span>
                 </div>
               </div>
             </div>
