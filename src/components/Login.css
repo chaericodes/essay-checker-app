@@ -3,17 +3,17 @@
 }
 
 .container {
-    margin: 50px;
+    margin: 30px;
 }
 
 .main-row {
     height: 500px;
 }
 
-.col {
-    /*border-style: solid;
-    border-width: 1px;   */
-}
+/*.col {
+    border-style: solid;
+    border-width: 1px;   
+}*/
 
 .separator {
     margin: 90px;
@@ -23,7 +23,7 @@
     /*border-style: solid;
     border-width: 1px;
     border-color: blue;*/
-    margin: 170px 20px;
+    margin: 200px 20px;
     max-width: 440px;
     height: 200px;
 }
@@ -36,14 +36,17 @@
 #login-card {
     border-radius: 20px;
     background: #9DC08B;
-    padding: 30px;
-    height: 600px;
+    padding: 30px 65px;
+    height: 700px;
     font-family: Istok Web;
 }
 
 #login-card-title {
     color: white;
+    font-size: large;
     font-weight: bold;
+    margin-top: 40px;
+
 }
 
 .login-card-element {
@@ -62,4 +65,36 @@
 .login-details {
     text-align: left;
     height: 70px;
+}
+
+#login-btn {
+    background-color: #609966;
+    font-family: Poppins;
+    border-color: #EDF1D6;
+    font-weight: bold;
+    color: #EDF1D6;
+    margin: 10px;
+}
+
+.login-btns {
+    font-family: Poppins;
+    color: #40513B;
+    font-size: small;
+}
+
+#forgotPasswordLink {
+    color: #40513B;
+    text-decoration: none;
+}
+
+#sign-up-link {
+    color: #EDF1D6;
+}
+
+.sign-up-question {
+    margin: 10px !important;
+}
+
+.question {
+    color: #40513B;
 }
