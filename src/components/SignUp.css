@@ -1,0 +1,122 @@
+.sign-up {
+    font-family: Poppins;
+}
+
+.container {
+    margin: 30px;
+}
+
+.main-row {
+    height: 500px;
+}
+
+.col {
+    /*border-style: solid;
+    border-width: 1px;   */
+    margin: 0 auto;
+}
+
+#title {
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: blue;*/
+    margin: 200px 20px;
+    max-width: 440px;
+    height: 200px;
+}
+
+.col h1 {
+    color: #609966;
+    height: max-content;
+}
+
+#signUp-card {
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #609966;
+    background: #9DC08B;
+    max-width: 550px;
+    padding: 30px 50px;
+    height: 725px;
+    font-family: Istok Web;
+}
+
+#login-card-title {
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.signUp-card-element {
+    text-align: center;
+    height: 50px;
+    margin: 5px;
+}
+
+#login-logo {
+    height: 150px;
+}
+
+.signUp-logo-container {
+    height: 110px;
+}
+
+.login-details {
+    text-align: left;
+    height: 70px;
+}
+
+#signUp-btn {
+    background-color: #609966;
+    font-family: Poppins;
+    border-color: #EDF1D6;
+    font-weight: bold;
+    color: #EDF1D6;
+}
+
+.signUp-btns {
+    font-family: Poppins;
+    color: #40513B;
+    font-size: small;
+}
+
+#forgotPasswordLink {
+    color: #40513B;
+    text-decoration: none;
+}
+
+#sign-up-link {
+    color: #EDF1D6;
+}
+
+.sign-up-question {
+    margin: 10px !important;
+}
+
+.question {
+    color: #40513B;
+}
+
+.sign-up-reminder {
+    font-family: Poppins;
+    font-size: small;
+    color: #EDF1D6;
+}
+
+.signUp-term-privacy {
+    color: #EDF1D6;
+}
+
+#signUp-Google-btn {
+    background-color: #EDF1D6;
+    color: #40513B;
+}
+
+#signUp-Facebook-btn {
+    color: #40513B;
+    border-color: black;
+
+}
