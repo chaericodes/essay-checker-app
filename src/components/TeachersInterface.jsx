@@ -15,4 +15,4 @@ return (
  );
 }
 
-export default TeachersInteface;
+export default TeachersInterface
