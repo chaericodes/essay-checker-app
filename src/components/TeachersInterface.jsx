@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom"
 import './TeachersInterface.css';
 
-function TeachersInteface() {
+function TeachersInterface() {
 return (
 <div>
 <div className="container">

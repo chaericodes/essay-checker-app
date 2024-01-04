@@ -12,6 +12,7 @@ function App() {
       <Route index element={<Login />} />
       <Route path='SignUp' element={<SignUp />} />
       <Route path='OTPForm' element={<OTPForm/>}></Route>
+      <Route path='TeachersInterface' element={<TeachersInterface/>}></Route>
     </Routes>
     </BrowserRouter>
   )
