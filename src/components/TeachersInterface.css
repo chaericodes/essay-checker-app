@@ -1,3 +1,16 @@
-body {
-    background-color: EDF1D6;
+.custom-container {
+  max-width: 100% !important;
+  width: 1500px;
+  margin: 0 auto;
+  max-height: 100% !important;
+  height: 750px;
+  border: 1px solid yellow;
+}
+
+#logo {
+  height: 120px;
+}
+
+.dashboard {
+  background-color: #edf1d6 !important;
 }

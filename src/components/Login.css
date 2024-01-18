@@ -1,104 +1,103 @@
 .login {
-    font-family: Poppins;
+  font-family: Poppins;
 }
 
 .container {
-    margin: 30px;
+  margin: 30px;
 }
 
 .main-row {
-    height: 500px;
+  height: 500px;
 }
 
 .col {
-    /*border-style: solid;
+  /*border-style: solid;
     border-width: 1px;*/
 }
 
 .separator {
-    margin: 0 50px !important;
+  margin: 0 50px !important;
 }
 
 #title {
-    /*border-style: solid;
+  /*border-style: solid;
     border-width: 1px;
     border-color: blue;*/
-    margin: 200px 20px;
-    max-width: 440px;
-    height: 200px;
+  margin: 200px 20px;
+  max-width: 440px;
+  height: 200px;
 }
 
 .col h1 {
-    color: #609966;
-    height: max-content;
+  color: #609966;
+  height: max-content;
 }
 
 #login-card {
-    border-radius: 20px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #609966;
-    background: #9DC08B;
-    max-width: 550px;
-    padding: 30px 50px;
-    height: 725px;
-    font-family: Istok Web;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #609966;
+  background: #9dc08b;
+  max-width: 550px;
+  padding: 30px 50px;
+  height: 725px;
+  font-family: Istok Web;
 }
 
 #login-card-title {
-    color: white;
-    font-size: large;
-    font-weight: bold;
-    margin-top: 40px;
-
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  margin-top: 40px;
 }
 
 .login-card-element {
-    text-align: center;
-    height: 50px;
+  text-align: center;
+  height: 50px;
 }
 
 #login-logo {
-    height: 150px;
+  height: 150px;
 }
 
 .login-logo-container {
-    height: 110px;
+  height: 110px;
 }
 
 .login-details {
-    text-align: left;
-    height: 70px;
+  text-align: left;
+  height: 70px;
 }
 
 #login-btn {
-    background-color: #609966;
-    font-family: Poppins;
-    border-color: #EDF1D6;
-    font-weight: bold;
-    color: #EDF1D6;
-    margin: 10px;
+  background-color: #609966;
+  font-family: Poppins;
+  border-color: #edf1d6;
+  font-weight: bold;
+  color: #edf1d6;
+  margin: 10px;
 }
 
 .login-btns {
-    font-family: Poppins;
-    color: #40513B;
-    font-size: small;
+  font-family: Poppins;
+  color: #40513b;
+  font-size: small;
 }
 
 #forgotPasswordLink {
-    color: #40513B;
-    text-decoration: none;
+  color: #40513b;
+  text-decoration: none;
 }
 
 #sign-up-link {
-    color: #EDF1D6;
+  color: #edf1d6;
 }
 
 .sign-up-question {
-    margin: 10px !important;
+  margin: 10px !important;
 }
 
 .question {
-    color: #40513B;
+  color: #40513b;
 }
