@@ -1,14 +1,26 @@
+* {
+  overflow: hidden;
+}
+
 .custom-container {
   max-width: 100% !important;
-  width: 1500px;
+  width: 1530px;
   margin: 0 auto;
   max-height: 100% !important;
-  height: 750px;
+  height: 780px;
   border: 1px solid yellow;
 }
 
 #logo {
   height: 120px;
+}
+
+.img-logo {
+  border: 2px solid #9dc08b;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 300px;
 }
 
 .dashboard {
