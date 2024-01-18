@@ -1,6 +1,4 @@
 import React from "react";
-import { ReactDOM } from "react";
-import TeachersInterface from "./TeachersInterface";
 import "./TeachersInterface.css";
 
 export default function FileInject() {

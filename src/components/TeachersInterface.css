@@ -1,5 +1,8 @@
 * {
   overflow: hidden;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .custom-container {
@@ -13,6 +16,7 @@
 
 #logo {
   height: 120px;
+  margin-left: 10px;
 }
 
 .img-logo {
@@ -20,9 +24,70 @@
   border-left: none;
   border-right: none;
   border-top: none;
-  width: 300px;
+  margin-top: 10px;
+  width: 290px;
 }
 
 .dashboard {
   background-color: #edf1d6 !important;
+}
+
+.open-book,
+.cap,
+.acc-information,
+.history,
+.logout {
+  margin-right: 0;
+  margin-left: 40px;
+  margin-top: 10px;
+  padding: 0 auto;
+  height: 40px;
+}
+
+.history {
+  margin-left: 43px;
+}
+
+.logout {
+  color: #9dc08b;
+}
+
+#essay-btn,
+#class-btn,
+#acc-btn,
+#history-btn,
+#logout-btn {
+  margin-top: 15px;
+  margin-left: 12px;
+  border: none;
+  background-color: transparent;
+}
+
+#essay-lnk,
+#class-lnk,
+#acc-lnk,
+#history-lnk,
+#logout-lnk {
+  text-decoration: none;
+  color: black;
+}
+
+#logout-lnk {
+  color: #9dc08b;
+}
+
+.footer {
+  margin-top: 160px;
+}
+
+.main-content {
+  background-color: white;
+}
+
+#head {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #40513b;
+  margin-top: 20px;
+  margin-left: 30px;
 }
