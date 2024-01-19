@@ -1,9 +1,10 @@
+/*.custom-container,
 * {
   overflow: hidden;
   font-family: poppins;
   font-size: 16px;
   font-weight: 500;
-}
+} */
 
 .custom-container {
   max-width: 100% !important;
@@ -30,6 +31,7 @@
 
 .dashboard {
   background-color: #edf1d6 !important;
+  font-family: poppins;
 }
 
 .open-book,
@@ -77,11 +79,12 @@
 }
 
 .footer {
-  margin-top: 160px;
+  margin-top: 345px;
 }
 
 .main-content {
   background-color: white;
+  font-family: poppins;
 }
 
 #head {
@@ -90,4 +93,61 @@
   color: #40513b;
   margin-top: 20px;
   margin-left: 30px;
+}
+
+.q-box {
+  background-color: #edf1d6;
+  border-radius: 10px;
+  box-shadow: 2px 3px #c5c5c5;
+  margin-left: 40px;
+}
+
+.label {
+  margin-top: 5px !important;
+  color: #9dc08b;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.phrase {
+  color: #40513b;
+  font-weight: 600;
+}
+
+.line {
+  border: 2px solid #40513b;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 355px;
+}
+
+.bottom {
+  margin-bottom: 10px;
+}
+
+.status,
+.section {
+  color: #5e9a65;
+  font-size: 15px;
+}
+
+.section {
+  font-weight: 600;
+  margin-left: -10px;
+}
+
+#copy-btn {
+  border-radius: 15px;
+  border-color: none;
+  background-color: #9dc08b;
+}
+
+#copy-lnk {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
 }
