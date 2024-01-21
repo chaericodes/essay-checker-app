@@ -156,64 +156,39 @@ function AddQuestion() {
               <div className="row">
                 {" "}
                 <div className="col">
-                  <h3 id="head">Essay Checker</h3>
+                  <h3 id="head">Add Question</h3>
                 </div>
               </div>
             </div>
             <div className="container questions">
               <div className="row">
-                <div className="col-4 q-box">
+                <div className="col question-cont">
                   <div className="row">
-                    <div className="col label d-flex justify-content-end">
-                      QUESTION 01
+                    <div className="col add-label d-flex justify-content-start">
+                      Question
                     </div>
                   </div>
                   <div className="row">
                     {" "}
-                    <div className="col phrase">
+                    <div className="col add-q">
                       {" "}
-                      Should social media platforms be banned from collecting
-                      their users' data?
+                      <textarea
+                        class="form-control"
+                        id="questionArea"
+                        rows="3"
+                      ></textarea>
                     </div>
                   </div>
-                  <div className="col line"></div>
-                  <div className="col bottom">
-                    <div className="row">
-                      <div className="col-2 status">Active:</div>
-                      <div className="col-5 section"> BSCS-NS-4A</div>
-                      <div className="col-5 copy-btn">
-                        <button
-                          type="button"
-                          id="copy-btn"
-                          className="btn btn-light"
-                        >
-                          <Link to="" id="copy-lnk">
-                            Copy Link
-                          </Link>
-                        </button>
-                      </div>
+                  <div className="row">
+                    <div className="col-3 class">
+                      {" "}
+                      <label for="assignedClass" class="form-label">
+                        Assigned Class:
+                      </label>
+                      <select className="form-select" id=""></select>
                     </div>
                   </div>
-                </div>
-                <div className="col add-btn">
-                  {" "}
-                  <button type="button" id="add-btn">
-                    <link rel="stylesheet" href="" />{" "}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="w-6 h-6 plus"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M12 4.5v15m7.5-7.5h-15"
-                      />
-                    </svg>
-                  </button>
+                  <div className="col q-line"></div>
                 </div>
               </div>
             </div>

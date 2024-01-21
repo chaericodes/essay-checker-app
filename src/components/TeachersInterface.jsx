@@ -200,7 +200,7 @@ function TeachersInterface() {
                 <div className="col add-btn">
                   {" "}
                   <button type="button" id="add-btn">
-                    <Link to="/AddQuestion" id="add-lnk">
+                    <Link to="/addQuestion" id="add-lnk">
                       {" "}
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
