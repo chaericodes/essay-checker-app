@@ -155,3 +155,21 @@
   font-size: 14px;
   font-weight: 700;
 }
+
+.plus {
+  color: white;
+  height: 140px;
+  width: 100px;
+  padding: 0 auto;
+  background-color: #9dc08b;
+  border-radius: 10px;
+  box-shadow: 2px 3px #c5c5c5;
+  margin-left: 40px;
+}
+
+#add-btn {
+  border: none;
+  background: none;
+  background-color: none;
+  margin-left: -35px;
+}
