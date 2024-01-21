@@ -184,7 +184,11 @@ function TeachersInterface() {
                       <div className="col-2 status">Active:</div>
                       <div className="col-5 section"> BSCS-NS-4A</div>
                       <div className="col-5 copy-btn">
-                        <button type="button" id="copy-btn">
+                        <button
+                          type="button"
+                          id="copy-btn"
+                          className="btn btn-light"
+                        >
                           <Link to="" id="copy-lnk">
                             Copy Link
                           </Link>

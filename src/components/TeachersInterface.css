@@ -132,6 +132,10 @@
 .section {
   color: #5e9a65;
   font-size: 15px;
+  margin-top: 7px !important;
+}
+.status {
+  font-weight: 500;
 }
 
 .section {
@@ -140,13 +144,13 @@
 }
 
 #copy-btn {
-  border-radius: 15px;
+  border-radius: 20px;
   border-color: none;
   background-color: #9dc08b;
 }
 
 #copy-lnk {
-  color: white;
+  color: #edf1d6;
   text-decoration: none;
   font-size: 14px;
   font-weight: 700;
