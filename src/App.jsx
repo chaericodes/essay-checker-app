@@ -1,22 +1,25 @@
-import { ReactDOM } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Login from './components/Login'
-import SignUp from './components/SignUp'
-import OTPForm from './components/OTPNotif'
-import TeachersInterface from './components/TeachersInterface'
-import './App.css'
+import { ReactDOM } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./components/Login";
+import SignUp from "./components/SignUp";
+import OTPForm from "./components/OTPNotif";
+import TeachersInterface from "./components/TeachersInterface";
+import AddQuestion from "./components/AddQuestion";
+
+import "./App.css";
 
 function App() {
-  return(
+  return (
     <BrowserRouter>
-    <Routes>
-      <Route index element={<Login />} />
-      <Route path='SignUp' element={<SignUp />} />
-      <Route path='OTPForm' element={<OTPForm/>}></Route>
-      <Route path='TeachersInterface' element={<TeachersInterface/>} />
-    </Routes>
+      <Routes>
+        <Route index element={<Login />} />
+        <Route path="SignUp" element={<SignUp />} />
+        <Route path="OTPForm" element={<OTPForm />}></Route>
+        <Route path="TeachersInterface" element={<TeachersInterface />} />
+        <Route path="AddQuestion" element={<AddQuestion />} />
+      </Routes>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

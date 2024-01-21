@@ -1,10 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./TeachersInterface.css";
+import "./AddQuestion.css";
 
-import FileInject from "./FileInject";
-
-function TeachersInterface() {
+function AddQuestion() {
   return (
     <div className="custom-container">
       <div className="row"></div>
@@ -200,23 +198,21 @@ function TeachersInterface() {
                 <div className="col add-btn">
                   {" "}
                   <button type="button" id="add-btn">
-                    <Link to="/AddQuestion" id="add-lnk">
-                      {" "}
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke-width="1.5"
-                        stroke="currentColor"
-                        class="w-6 h-6 plus"
-                      >
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          d="M12 4.5v15m7.5-7.5h-15"
-                        />
-                      </svg>
-                    </Link>
+                    <link rel="stylesheet" href="" />{" "}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6 plus"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 4.5v15m7.5-7.5h-15"
+                      />
+                    </svg>
                   </button>
                 </div>
               </div>
@@ -228,4 +224,4 @@ function TeachersInterface() {
   );
 }
 
-export default TeachersInterface;
+export default AddQuestion;
