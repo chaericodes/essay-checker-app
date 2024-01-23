@@ -180,12 +180,19 @@ function AddQuestion() {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-3 class">
+                    <div className="col-4 class">
                       {" "}
                       <label for="assignedClass" class="form-label">
                         Assigned Class:
                       </label>
-                      <select className="form-select" id=""></select>
+                      <select className="form-select" id="ass-class"></select>
+                    </div>
+                    <div className="col-4 class">
+                      {" "}
+                      <label for="assignedClass" class="form-label">
+                        Assigned Class:
+                      </label>
+                      <select className="form-select" id="ass-class"></select>
                     </div>
                   </div>
                   <div className="col q-line"></div>
