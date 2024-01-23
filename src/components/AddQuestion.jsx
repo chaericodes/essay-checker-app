@@ -180,22 +180,93 @@ function AddQuestion() {
                     </div>
                   </div>
                   <div className="row">
-                    <div className="col-4 class">
+                    <div className="col-3 class">
                       {" "}
-                      <label for="assignedClass" class="form-label">
+                      <label for="assignedClass" class="form-label class-label">
                         Assigned Class:
                       </label>
                       <select className="form-select" id="ass-class"></select>
                     </div>
-                    <div className="col-4 class">
+                    <div className="col-3 class">
                       {" "}
-                      <label for="assignedClass" class="form-label">
-                        Assigned Class:
+                      <label for="date" class="form-label class-label">
+                        Date:
                       </label>
-                      <select className="form-select" id="ass-class"></select>
+                      <select className="form-select" id="date"></select>
+                    </div>
+                    <div className="col-3 class">
+                      {" "}
+                      <label for="time" class="form-label class-label">
+                        Time:
+                      </label>
+                      <select className="form-select" id="time"></select>
+                    </div>
+                    <div className="col-3 class">
+                      {" "}
+                      <label for="time-limit" class="form-label class-label">
+                        Time Limit:
+                      </label>
+                      <select className="form-select" id="time-limit"></select>
                     </div>
                   </div>
                   <div className="col q-line"></div>
+                  <div className="row">
+                    <div className="col add-label d-flex justify-content-start">
+                      Answer
+                    </div>
+                    <div className="row">
+                      {" "}
+                      <div className="col answer">
+                        {" "}
+                        <textarea
+                          class="form-control"
+                          id="answerArea"
+                          rows="7"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="container label-criteria">
+              <div className="row">
+                {" "}
+                <div className="col">
+                  <h4 id="criteria">Criteria</h4>
+                </div>
+              </div>
+            </div>
+            <div className="container main-crit">
+              <div className="row">
+                <div className="col-2 class-crit" id="introduction">
+                  <div className="container intro">
+                    <div className="row">
+                      <div className="col-6 score">20</div>
+                      <div className="col-6 over">/100</div>
+                    </div>{" "}
+                    <div className="col c-line"></div>
+                    <div className="row">
+                      <div className="col">Introduction</div>
+                    </div>
+                    <sdiv className="row">
+                      <div className="col">
+                        <p>Lorem ipsum dolor sit amet</p>
+                      </div>
+                    </sdiv>
+                  </div>
+                </div>
+                <div className="col-2 class-crit" id="mainpointts">
+                  2
+                </div>
+                <div className="col-2 class-crit" id="conclusion">
+                  3
+                </div>
+                <div className="col-2 class-crit" id="workcited">
+                  4
+                </div>
+                <div className="col-2 class-crit" id="mechanics">
+                  5
                 </div>
               </div>
             </div>
