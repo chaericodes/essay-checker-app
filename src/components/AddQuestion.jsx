@@ -241,7 +241,7 @@ function AddQuestion() {
               <div className="row">
                 <div className="col-2 class-crit" id="introduction">
                   <div className="container intro">
-                    <div className="row">
+                    <div className="row overall-score">
                       <div className="col-6 score">20</div>
                       <div className="col-6 over">/100</div>
                     </div>{" "}
@@ -256,17 +256,95 @@ function AddQuestion() {
                     </sdiv>
                   </div>
                 </div>
-                <div className="col-2 class-crit" id="mainpointts">
-                  2
+                <div className="col-2 class-crit" id="mainpoints">
+                  <div className="container mainpts">
+                    <div className="row overall-score">
+                      <div className="col-6 score">35</div>
+                      <div className="col-6 over">/100</div>
+                    </div>{" "}
+                    <div className="col c-line"></div>
+                    <div className="row">
+                      <div className="col">Mainpoints</div>
+                    </div>
+                    <sdiv className="row">
+                      <div className="col">
+                        <p>Lorem ipsum dolor sit amet</p>
+                      </div>
+                    </sdiv>
+                  </div>
                 </div>
                 <div className="col-2 class-crit" id="conclusion">
-                  3
+                  <div className="container concl">
+                    <div className="row overall-score">
+                      <div className="col-6 score">10</div>
+                      <div className="col-6 over">/100</div>
+                    </div>{" "}
+                    <div className="col c-line"></div>
+                    <div className="row">
+                      <div className="col">Conclusion</div>
+                    </div>
+                    <sdiv className="row">
+                      <div className="col">
+                        <p>Lorem ipsum dolor sit amet</p>
+                      </div>
+                    </sdiv>
+                  </div>
                 </div>
                 <div className="col-2 class-crit" id="workcited">
-                  4
+                  <div className="container work-cited">
+                    <div className="row overall-score">
+                      <div className="col-6 score">15</div>
+                      <div className="col-6 over">/100</div>
+                    </div>{" "}
+                    <div className="col c-line"></div>
+                    <div className="row">
+                      <div className="col">Work Cited</div>
+                    </div>
+                    <sdiv className="row">
+                      <div className="col">
+                        <p>Lorem ipsum dolor sit amet</p>
+                      </div>
+                    </sdiv>
+                  </div>
                 </div>
                 <div className="col-2 class-crit" id="mechanics">
-                  5
+                  <div className="container mechanics">
+                    <div className="row overall-score">
+                      <div className="col-6 score">20</div>
+                      <div className="col-6 over">/100</div>
+                    </div>{" "}
+                    <div className="col c-line"></div>
+                    <div className="row">
+                      <div className="col">Mechanics</div>
+                    </div>
+                    <div className="row">
+                      <div className="col">
+                        <p>Lorem ipsum dolor sit amet</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="container submit-btn d-flex justify-content-center">
+              <div className="row">
+                <div className="col-6">
+                  {" "}
+                  <button type="button" id="submitAnotherQuestion-btn">
+                    <Link to="" id="submitAnotherQuestion-lnk">
+                      SUBMIT ANOTHER
+                      <br />
+                      QUESTION
+                    </Link>
+                  </button>
+                </div>
+                <div className="col-6">
+                  {" "}
+                  <button type="button" id="submit-btn">
+                    <Link to="" id="submit-lnk">
+                      SUBMIT
+                    </Link>
+                  </button>
                 </div>
               </div>
             </div>

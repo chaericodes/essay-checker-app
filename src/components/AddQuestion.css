@@ -30,6 +30,7 @@
 }
 
 .dashboard {
+  height: 1000px !important;
   background-color: #edf1d6 !important;
   font-family: poppins;
 }
@@ -79,10 +80,11 @@
 }
 
 .footer {
-  margin-top: 345px;
+  margin-top: 555px;
 }
 
 .main-content {
+  height: 1000px !important;
   background-color: white;
   font-family: poppins;
 }
@@ -144,6 +146,7 @@
 }
 
 #introduction {
+  margin-left: 50px;
   background-color: #edf1d6;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -165,6 +168,10 @@
   font-weight: 600;
 }
 
+.overall-score {
+  margin-left: 5px !important;
+}
+
 .c-line {
   border: 2px solid #40513b;
   border-left: none;
@@ -172,5 +179,62 @@
   border-top: none;
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 175px;
+  width: 150px;
+}
+
+#mainpoints {
+  margin-left: 20px !important;
+  background-color: #edf1d6;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#conclusion {
+  margin-left: 20px !important;
+  background-color: #edf1d6;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#workcited {
+  margin-left: 20px !important;
+  background-color: #edf1d6;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#mechanics {
+  margin-left: 20px !important;
+  background-color: #edf1d6;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#submitAnotherQuestion-lnk {
+  font-weight: 600;
+  text-decoration: none;
+  border-color: #40513b;
+  color: #40513b;
+  background-color: #edf1d6;
+}
+
+#submitAnotherQuestion-btn {
+  width: 150px;
+  background-color: #edf1d6;
+  border-color: #40513b;
+  border-radius: 12px;
+  font-size: 13px;
+}
+
+#submit-lnk {
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  background-color: #40513b;
+}
+
+#submit-btn {
+  background-color: #40513b;
+  border-radius: 12px;
+  font-size: 25px;
 }
