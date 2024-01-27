@@ -177,7 +177,7 @@ function TeachersInterface() {
                         id="view-btn"
                         className="btn btn-light"
                       >
-                        <Link to="View" id="view-lnk">
+                        <Link to="/viewTeachersInterface" id="view-lnk">
                           Should social media platforms be banned from
                           collecting their users' data?
                         </Link>
