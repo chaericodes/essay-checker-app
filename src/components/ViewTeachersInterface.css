@@ -73,3 +73,136 @@
 .footer {
   margin-top: 345px;
 }
+
+#head {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #40513b;
+  margin-top: 20px;
+  margin-left: 30px !important;
+}
+
+.view {
+  font-weight: 600;
+  color: #40513b;
+  font-family: poppins;
+}
+
+.view-label {
+  margin-top: 5px !important;
+  color: #9dc08b;
+  font-weight: 600;
+  font-family: poppins;
+}
+
+.view-q-box {
+  background-color: #edf1d6;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-left: 40px;
+}
+
+.view-className {
+  margin-top: 45px !important;
+  margin-left: 30px;
+}
+
+#class-name {
+  color: #9dc08b;
+  font-weight: 650;
+  font-size: 20px;
+}
+
+#classname-bar {
+  width: 420px;
+  height: 50px;
+  background-color: #edf1d6;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.view-line {
+  border: 2px solid #40513b;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 1075px;
+}
+
+#back-lnk {
+  text-decoration: none;
+  color: #40513b;
+  font-weight: 700;
+}
+
+#back-btn {
+  background: transparent;
+  border: none;
+}
+
+.view-deadline {
+  background-color: #edf1d6;
+  width: 1050px !important;
+  border-radius: 10px;
+}
+
+.deadline-label {
+  color: #9dc08b;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: -20px;
+  margin-left: -12px;
+}
+
+.set-deadline {
+  margin-top: -20px !important;
+  margin-bottom: 20px !important;
+}
+
+.left-label {
+  font-weight: 800;
+  color: #40513b;
+}
+
+.set {
+  color: #40513b;
+  font-weight: 600;
+}
+
+.menu {
+  margin-left: 20px !important;
+}
+
+.record-label {
+  color: #40513b;
+  font-weight: 800;
+}
+
+.record {
+  color: #40513b !important;
+  font-weight: 600;
+}
+
+#view-record-btn {
+  background-color: #edf1d6;
+  border-color: #40513b;
+  border-radius: 15px;
+  width: 70px;
+  font-size: 12px;
+}
+
+#view-record-lnk {
+  font-size: 12px;
+  font-weight: 800;
+  color: #40513b;
+  text-decoration: none;
+}
+
+.eyes {
+  font-size: 12px;
+}
+
+.arrow {
+  font-size: 50px !important;
+}

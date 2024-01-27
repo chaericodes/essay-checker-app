@@ -2,4 +2,5 @@ body {
   background-image: url("./assets/bg-pic.png");
   background-size: 85%;
   background-color: #edf1d6;
+  font-family: poppins !important;
 }
