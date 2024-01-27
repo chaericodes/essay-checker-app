@@ -109,9 +109,17 @@
   font-weight: 600;
 }
 
-.phrase {
+#view-lnk {
+  text-align: left !important;
+  text-decoration: none;
   color: #40513b;
   font-weight: 600;
+  background-color: transparent;
+}
+
+#view-btn {
+  background-color: transparent;
+  border: none;
 }
 
 .line {
@@ -158,7 +166,7 @@
 
 .plus {
   color: white;
-  height: 140px;
+  height: 175px;
   width: 100px;
   padding: 0 auto;
   background-color: #9dc08b;

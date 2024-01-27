@@ -171,11 +171,17 @@ function TeachersInterface() {
                     </div>
                   </div>
                   <div className="row">
-                    {" "}
-                    <div className="col phrase">
-                      {" "}
-                      Should social media platforms be banned from collecting
-                      their users' data?
+                    <div className="col view">
+                      <button
+                        type="button"
+                        id="view-btn"
+                        className="btn btn-light"
+                      >
+                        <Link to="View" id="view-lnk">
+                          Should social media platforms be banned from
+                          collecting their users' data?
+                        </Link>
+                      </button>
                     </div>
                   </div>
                   <div className="col line"></div>
