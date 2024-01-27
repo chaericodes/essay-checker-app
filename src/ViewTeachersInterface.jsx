@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./view.css";
+import "./ViewTeachersInterface.css";
 
-function View() {
+function ViewTeachersInterface() {
   return (
     <div className="custom-container">
       <div className="row"></div>
@@ -167,4 +167,4 @@ function View() {
   );
 }
 
-export default View;
+export default ViewTeachersInterface;
