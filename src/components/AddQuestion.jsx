@@ -247,11 +247,13 @@ function AddQuestion() {
                     </div>{" "}
                     <div className="col c-line"></div>
                     <div className="row">
-                      <div className="col">Introduction</div>
+                      <div className="col">
+                        <h5 className="header">Introduction</h5>
+                      </div>
                     </div>
                     <sdiv className="row">
                       <div className="col">
-                        <p>Lorem ipsum dolor sit amet</p>
+                        <p className="feedback">Lorem ipsum dolor sit amet</p>
                       </div>
                     </sdiv>
                   </div>
@@ -264,11 +266,16 @@ function AddQuestion() {
                     </div>{" "}
                     <div className="col c-line"></div>
                     <div className="row">
-                      <div className="col">Mainpoints</div>
+                      <div className="col">
+                        <h5 className="header">Mainpoints</h5>
+                      </div>
                     </div>
                     <sdiv className="row">
                       <div className="col">
-                        <p>Lorem ipsum dolor sit amet</p>
+                        <p className="feedback">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit
+                        </p>
                       </div>
                     </sdiv>
                   </div>
@@ -281,11 +288,16 @@ function AddQuestion() {
                     </div>{" "}
                     <div className="col c-line"></div>
                     <div className="row">
-                      <div className="col">Conclusion</div>
+                      <div className="col">
+                        <h5 className="header">Conclusion</h5>
+                      </div>
                     </div>
                     <sdiv className="row">
                       <div className="col">
-                        <p>Lorem ipsum dolor sit amet</p>
+                        <p className="feedback">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor
+                        </p>
                       </div>
                     </sdiv>
                   </div>
@@ -298,11 +310,16 @@ function AddQuestion() {
                     </div>{" "}
                     <div className="col c-line"></div>
                     <div className="row">
-                      <div className="col">Work Cited</div>
+                      <div className="col">
+                        <h5 className="header">Work Cited</h5>
+                      </div>
                     </div>
                     <sdiv className="row">
                       <div className="col">
-                        <p>Lorem ipsum dolor sit amet</p>
+                        <p className="feedback">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore
+                        </p>
                       </div>
                     </sdiv>
                   </div>
@@ -315,11 +332,17 @@ function AddQuestion() {
                     </div>{" "}
                     <div className="col c-line"></div>
                     <div className="row">
-                      <div className="col">Mechanics</div>
+                      <div className="col">
+                        <h5 className="header">Mechanics</h5>
+                      </div>
                     </div>
                     <div className="row">
                       <div className="col">
-                        <p>Lorem ipsum dolor sit amet</p>
+                        <p className="feedback">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna.
+                        </p>
                       </div>
                     </div>
                   </div>

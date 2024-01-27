@@ -30,7 +30,7 @@
 }
 
 .dashboard {
-  height: 1000px !important;
+  height: 1050px !important;
   background-color: #edf1d6 !important;
   font-family: poppins;
 }
@@ -80,11 +80,11 @@
 }
 
 .footer {
-  margin-top: 555px;
+  margin-top: 600px;
 }
 
 .main-content {
-  height: 1000px !important;
+  height: 1050px !important;
   background-color: white;
   font-family: poppins;
 }
@@ -237,4 +237,14 @@
   background-color: #40513b;
   border-radius: 12px;
   font-size: 25px;
+}
+
+.header {
+  font-weight: 700;
+  color: #40513b;
+}
+
+.feedback {
+  font-weight: 300;
+  font-size: 12px;
 }
