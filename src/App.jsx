@@ -5,7 +5,7 @@ import SignUp from "./components/SignUp";
 import OTPForm from "./components/OTPNotif";
 import TeachersInterface from "./components/TeachersInterface";
 import AddQuestion from "./components/AddQuestion";
-import ViewTeachersInterface from "./ViewTeachersInterface";
+import ViewTeachersInterface from "./components/ViewTeachersInterface";
 
 import "./App.css";
 
