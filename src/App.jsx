@@ -6,6 +6,7 @@ import OTPForm from "./components/OTPNotif";
 import TeachersInterface from "./components/TeachersInterface";
 import AddQuestion from "./components/AddQuestion";
 import ViewTeachersInterface from "./components/ViewTeachersInterface";
+import ViewAnswer from "./components/ViewAnswer";
 
 import "./App.css";
 
@@ -22,6 +23,7 @@ function App() {
           path="ViewTeachersInterface"
           element={<ViewTeachersInterface />}
         />
+        <Route path="ViewAnswer" element={<ViewAnswer />} />
       </Routes>
     </BrowserRouter>
   );

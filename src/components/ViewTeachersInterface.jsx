@@ -254,7 +254,7 @@ function ViewTeachersInterface() {
                     id="view-record-btn"
                     className="btn btn-light"
                   >
-                    <Link to="" id="view-record-lnk">
+                    <Link to="/viewAnswer" id="view-record-lnk">
                       <span className="eyes">👁</span>VIEW
                     </Link>
                   </button>
