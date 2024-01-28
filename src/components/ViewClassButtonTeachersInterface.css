@@ -1,0 +1,36 @@
+#email {
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 95px;
+  margin-top: -15px;
+  color: #40513b;
+}
+
+.view-class-box {
+  background-color: #edf1d6;
+  border-radius: 10px;
+  box-shadow: 2px 3px #c5c5c5;
+  margin-left: 40px;
+}
+
+.label {
+  margin-top: 5px !important;
+  color: #9dc08b;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.bottom-score,
+.bottom-overallScore {
+  color: #5e9a65;
+  font-size: 15px;
+  margin-top: 7px !important;
+}
+.bottom-score {
+  font-weight: 500;
+}
+
+.bottom-overallScore {
+  font-weight: 600;
+  margin-left: -10px;
+}
