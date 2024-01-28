@@ -1,0 +1,58 @@
+#add-student-lnk {
+  text-decoration: none;
+  color: #40513b;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+#add-student-btn {
+  background-color: #edf1d6;
+  border-radius: 15px;
+  border: 1px solid #40513b;
+  height: 35px;
+}
+
+.class-view-record {
+  margin-left: 20px;
+}
+
+.classRec-view {
+  color: #40513b;
+  font-size: 15px;
+  font-weight: 650;
+}
+
+#classRec-view {
+  font-weight: 520;
+  color: #40513b;
+}
+
+#viewClass-tab-lnk {
+  text-decoration: none;
+  color: #40513b;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: -15px !important;
+}
+
+#viewClass-tab-btn {
+  background-color: #edf1d6;
+  border: 1px solid #40513b;
+  border-radius: 20px;
+  width: 90px;
+  height: 35px;
+}
+
+#deleteclass-view-lnk {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+#deleteclass-view-btn {
+  background-color: #9dc08b;
+  border-radius: 20px;
+  width: 90px;
+  height: 35px;
+}

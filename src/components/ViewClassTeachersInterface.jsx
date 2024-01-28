@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./ClassTeachersInterface.css";
+import "./ViewClassTeachersInterface.css";
 
 function ClassTeachersInterface() {
   return (
@@ -161,20 +161,20 @@ function ClassTeachersInterface() {
                 <div className="col d-flex justify-content-end">
                   <button
                     type="button"
-                    id="add-class-btn"
+                    id="add-student-btn"
                     className="btn btn-light"
                   >
-                    <Link to="/teachersInterface" id="add-class-lnk">
+                    <Link to="/teachersInterface" id="add-student-lnk">
                       <span className="addClass">Add student</span>
                     </Link>
                   </button>
                 </div>
               </div>
               <div className="container">
-                <div className="row class-record">
+                <div className="row class-view-record">
                   <div className="col-1 classRec-view">No.</div>
-                  <div className="col-5 classRec-view">Name</div>
-                  <div className="col-3 classRec-view">Email</div>
+                  <div className="col-4 classRec-view">Name</div>
+                  <div className="col-4 classRec-view">Email</div>
                   <div className="col-3 classRec-view">Action</div>
                 </div>
                 <div className="col q-line"></div>
@@ -197,7 +197,10 @@ function ClassTeachersInterface() {
                           id="viewClass-tab-btn"
                           className="btn btn-light"
                         >
-                          <Link to="/teachersInterface" id="viewClass-tab-lnk">
+                          <Link
+                            to="/viewClassButtonTeachersInterface"
+                            id="viewClass-tab-lnk"
+                          >
                             VIEW
                           </Link>
                         </button>
@@ -206,12 +209,12 @@ function ClassTeachersInterface() {
                         {" "}
                         <button
                           type="button"
-                          id="deleteclass-tab-btn"
+                          id="deleteclass-view-btn"
                           className="btn btn-light"
                         >
                           <Link
                             to="/teachersInterface"
-                            id="deleteclass-tab-lnk"
+                            id="deleteclass-view-lnk"
                           >
                             DELETE
                           </Link>
