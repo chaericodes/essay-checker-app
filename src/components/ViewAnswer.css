@@ -211,8 +211,9 @@
 .clarity {
   background-color: #9dc08b;
   border-radius: 10px;
-  width: 900px !important;
+  width: 350px !important;
   margin-bottom: 20px;
+  margin-right: 10px;
 }
 
 .side-numerator,
