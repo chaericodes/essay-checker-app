@@ -180,7 +180,7 @@ function ViewAnswer() {
                   </div>
                 </div>
                 <div className="row view-Answer">
-                  <div className="col-6 viewAns-q-box">
+                  <div className="col-5 viewAns-q-box">
                     <div className="row">
                       <div className="col d-flex justify-content-start view-label">
                         QUESTION
@@ -193,21 +193,25 @@ function ViewAnswer() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6 viewAns-q-box">
+                  <div className="col viewDate-box">
                     <div className="row">
                       <div className="col-7 d-flex justify-content-start">
-                        Date Passed: December 25, 2023
+                        <div className="col date-passed">
+                          {" "}
+                          Date Passed:{" "}
+                          <span className="date">December 25, 2023</span>
+                        </div>
                       </div>{" "}
-                      <div className="col ">
-                        Time: <span>105 minutes</span>
+                      <div className="col time-passed">
+                        Time: <span className="time">105 mins</span>
                       </div>
                     </div>
                     <div className="row">
-                      <div className="col">
-                        Start: <span>10:00pm</span>
+                      <div className="col start-time">
+                        Start: <span className="time">10:00pm</span>
                       </div>
-                      <div className="col">
-                        End: <span>11:45pm</span>
+                      <div className="col end-time">
+                        End: <span className="time">11:45pm</span>
                       </div>
                     </div>
                   </div>
@@ -219,14 +223,14 @@ function ViewAnswer() {
               {" "}
               <div
                 className="col-7 answer-content border border-black"
-                style={{ height: "700px" }}
+                style={{ height: "650px" }}
               >
                 <div className="container title">
                   <div className="row top-content">
-                    <div className="col-8 untitled">
+                    <div className="col-6 untitled">
                       <div className="col title">Untitled</div>
                     </div>
-                    <div className="col-3 d-flex justify-content-end words">
+                    <div className="col d-flex justify-content-end words">
                       273 words
                     </div>
                   </div>

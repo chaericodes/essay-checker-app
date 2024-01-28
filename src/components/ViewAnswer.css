@@ -71,7 +71,7 @@
 }
 
 .footer {
-  margin-top: 345px;
+  margin-top: 595px;
 }
 
 #head {
@@ -96,7 +96,7 @@
 .viewAns-classname {
   color: #9dc08b;
   font-weight: 620;
-  margin-top: 10px;
+  margin-top: 10px !important;
 }
 
 #viewAns-classSec {
@@ -116,6 +116,29 @@
   margin-left: 30px;
   width: 490px;
 }
+
+.viewDate-box {
+  background-color: #edf1d6;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-left: 130px;
+  width: 490px;
+}
+
+.date-passed,
+.time-passed,
+.start-time,
+.end-time {
+  color: #40513b;
+  font-weight: 800;
+}
+
+.date,
+.time {
+  color: #40513b;
+  font-weight: 600;
+}
+
 .answer-content {
   background-color: #9dc08b;
   border-radius: 15px;
@@ -135,11 +158,11 @@
 }
 
 .title {
-  margin-top: 6px;
+  margin-top: 10px;
 }
 
 .words {
-  margin-left: 130px;
+  margin-left: 90px;
   margin-top: 12px;
 }
 
