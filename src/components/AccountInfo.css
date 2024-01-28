@@ -181,4 +181,37 @@
     background-color: none;
     margin-left: -35px;
   }
+
+  #prof{
+    padding: 0 auto;
+    margin: 30px;
+  }
   
+  #info{
+    padding: 0 auto;
+    margin-top: -130px;
+    margin-left: 250px;
+  }
+
+  #accountName{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: poppins;
+    color:#40513b;
+  }
+
+  #accountEmail{
+    font-size: 16px;
+    font-family: Poppins;
+    margin-top: -15px;
+  }
+
+  .q-line {
+    border: 100px solid #40513b;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1075px;
+  }
