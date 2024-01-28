@@ -156,7 +156,7 @@ function ClassTeachersInterface() {
               <div className="row">
                 {" "}
                 <div className="col-10 d-flex justify-content-between">
-                  <h3 id="head">Hi, Angela!</h3>
+                  <h3 id="head">BSCS-NS-4A</h3>
                 </div>
                 <div className="col d-flex justify-content-end">
                   <button
@@ -165,48 +165,28 @@ function ClassTeachersInterface() {
                     className="btn btn-light"
                   >
                     <Link to="/teachersInterface" id="add-class-lnk">
-                      <span className="addClass">Add Class</span>
+                      <span className="addClass">Add student</span>
                     </Link>
                   </button>
                 </div>
               </div>
-              <div className="row">
-                {" "}
-                <div className="col-10 d-flex justify-content-between">
-                  <h5 id="instruction">
-                    To create a class, click the "Add Class" button.
-                  </h5>
-                </div>
-              </div>
               <div className="container">
                 <div className="row class-record">
-                  <div className="col-1 classRec-label">No.</div>
-                  <div className="col-5 classRec-label">Class Name</div>
-                  <div className="col-3 classRec-label">No. of Students</div>
-                  <div className="col-3 classRec-label">Action</div>
+                  <div className="col-1 classRec-view">No.</div>
+                  <div className="col-5 classRec-view">Name</div>
+                  <div className="col-3 classRec-view">Email</div>
+                  <div className="col-3 classRec-view">Action</div>
                 </div>
                 <div className="col q-line"></div>
                 <div className="row class-record">
-                  <div className="col-1" id="classRec-label">
+                  <div className="col-1" id="classRec-view">
                     1.
                   </div>
-                  <div className="col-5" id="classRec-label">
-                    {" "}
-                    <button
-                      type="button"
-                      id="class-section-btn"
-                      className="btn btn-light"
-                    >
-                      <Link
-                        to="/viewClassTeachersInterface"
-                        id="class-section-lnk"
-                      >
-                        BSCS NS 4A
-                      </Link>
-                    </button>
+                  <div className="col-4" id="classRec-view">
+                    Chayry Bustamante
                   </div>
-                  <div className="col-3" id="classRec-label">
-                    30 students
+                  <div className="col-4" id="classRec-view">
+                    chayryjoy.bustamante@tup.edu.ph
                   </div>
                   <div className="col-3">
                     <div className="row">
@@ -214,11 +194,11 @@ function ClassTeachersInterface() {
                         {" "}
                         <button
                           type="button"
-                          id="addClass-tab-btn"
+                          id="viewClass-tab-btn"
                           className="btn btn-light"
                         >
-                          <Link to="/teachersInterface" id="addClass-tab-lnk">
-                            ADD
+                          <Link to="/teachersInterface" id="viewClass-tab-lnk">
+                            VIEW
                           </Link>
                         </button>
                       </div>
@@ -226,10 +206,13 @@ function ClassTeachersInterface() {
                         {" "}
                         <button
                           type="button"
-                          id="delete-class-btn"
+                          id="deleteclass-tab-btn"
                           className="btn btn-light"
                         >
-                          <Link to="/teachersInterface" id="delete-class-lnk">
+                          <Link
+                            to="/teachersInterface"
+                            id="deleteclass-tab-lnk"
+                          >
                             DELETE
                           </Link>
                         </button>

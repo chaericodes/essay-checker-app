@@ -1,0 +1,75 @@
+#add-class-lnk {
+  text-decoration: none;
+  color: #40513b;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+#add-class-btn {
+  background-color: #edf1d6;
+  border-radius: 15px;
+  border: 1px solid #40513b;
+  height: 35px;
+}
+
+#instruction {
+  font-weight: 600;
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+.class-record {
+  margin-left: 20px;
+}
+
+.classRec-label {
+  color: #40513b;
+  font-size: 15px;
+  font-weight: 650;
+}
+
+#classRec-label {
+  font-weight: 520;
+  color: #40513b;
+}
+
+#class-section-lnk {
+  text-decoration: none;
+  color: #40513b;
+  font-weight: 520;
+}
+
+#class-section-btn {
+  background-color: transparent;
+  border: none;
+}
+
+#addClass-tab-lnk {
+  text-decoration: none;
+  color: #40513b;
+  font-size: 12px;
+  font-weight: 700;
+  margin-top: -15px !important;
+}
+
+#addClass-tab-btn {
+  background-color: #edf1d6;
+  border: 1px solid #40513b;
+  border-radius: 20px;
+  width: 90px;
+  height: 35px;
+}
+
+#delete-class-lnk {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+#delete-class-btn {
+  background-color: #9dc08b;
+  border-radius: 20px;
+  width: 90px;
+  height: 35px;
+}

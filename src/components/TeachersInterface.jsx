@@ -60,7 +60,7 @@ function TeachersInterface() {
                 <div className="col">
                   {" "}
                   <button type="button" id="class-btn">
-                    <Link to="" id="class-lnk">
+                    <Link to="/classTeachersInterface" id="class-lnk">
                       Class
                     </Link>
                   </button>

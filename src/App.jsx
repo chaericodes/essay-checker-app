@@ -7,6 +7,7 @@ import TeachersInterface from "./components/TeachersInterface";
 import AddQuestion from "./components/AddQuestion";
 import ViewTeachersInterface from "./components/ViewTeachersInterface";
 import ViewAnswer from "./components/ViewAnswer";
+import ClassTeachersInterface from "./components/ClassTeachersInterface";
 
 import "./App.css";
 
@@ -24,6 +25,14 @@ function App() {
           element={<ViewTeachersInterface />}
         />
         <Route path="ViewAnswer" element={<ViewAnswer />} />
+        <Route
+          path="ViewTeachersInterface"
+          element={<ViewTeachersInterface />}
+        />
+        <Route
+          path="ClassTeachersInterface"
+          element={<ClassTeachersInterface />}
+        />
       </Routes>
     </BrowserRouter>
   );
