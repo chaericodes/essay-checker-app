@@ -241,9 +241,9 @@ function AddQuestion() {
               <div className="row">
                 <div className="col-2 class-crit" id="introduction">
                   <div className="container intro">
-                    <div className="row overall-score">
+                    <div className="row overallscore">
                       <div className="col-6 score">20</div>
-                      <div className="col-6 over">/100</div>
+                      <div className="col-6 over-score">/100</div>
                     </div>{" "}
                     <div className="col c-line"></div>
                     <div className="row">
@@ -260,9 +260,9 @@ function AddQuestion() {
                 </div>
                 <div className="col-2 class-crit" id="mainpoints">
                   <div className="container mainpts">
-                    <div className="row overall-score">
+                    <div className="row overallscore">
                       <div className="col-6 score">35</div>
-                      <div className="col-6 over">/100</div>
+                      <div className="col-6 over-score">/100</div>
                     </div>{" "}
                     <div className="col c-line"></div>
                     <div className="row">
@@ -282,9 +282,9 @@ function AddQuestion() {
                 </div>
                 <div className="col-2 class-crit" id="conclusion">
                   <div className="container concl">
-                    <div className="row overall-score">
+                    <div className="row overallscore">
                       <div className="col-6 score">10</div>
-                      <div className="col-6 over">/100</div>
+                      <div className="col-6 over-score">/100</div>
                     </div>{" "}
                     <div className="col c-line"></div>
                     <div className="row">
@@ -304,9 +304,9 @@ function AddQuestion() {
                 </div>
                 <div className="col-2 class-crit" id="workcited">
                   <div className="container work-cited">
-                    <div className="row overall-score">
+                    <div className="row overallscore">
                       <div className="col-6 score">15</div>
-                      <div className="col-6 over">/100</div>
+                      <div className="col-6 over-score">/100</div>
                     </div>{" "}
                     <div className="col c-line"></div>
                     <div className="row">
@@ -326,9 +326,9 @@ function AddQuestion() {
                 </div>
                 <div className="col-2 class-crit" id="mechanics">
                   <div className="container mechanics">
-                    <div className="row overall-score">
+                    <div className="row overallscore">
                       <div className="col-6 score">20</div>
-                      <div className="col-6 over">/100</div>
+                      <div className="col-6 over-score">/100</div>
                     </div>{" "}
                     <div className="col c-line"></div>
                     <div className="row">

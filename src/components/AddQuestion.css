@@ -162,13 +162,13 @@
   font-weight: 600;
 }
 
-.over {
+.over-score {
   color: #40513b;
   font-size: 30px;
   font-weight: 600;
 }
 
-.overall-score {
+.overallscore {
   margin-left: 5px !important;
 }
 

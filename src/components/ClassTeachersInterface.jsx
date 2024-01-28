@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./ViewTeachersInterface.css";
+import "./ClassTeachersInterface.css";
 
-function ViewTeachersInterface() {
+function ClassTeachersInterface() {
   return (
     <div className="custom-container">
       <div className="row"></div>
@@ -156,7 +156,7 @@ function ViewTeachersInterface() {
               <div className="row">
                 {" "}
                 <div className="col-10 d-flex justify-content-between">
-                  <h3 id="head">Essay Checker</h3>
+                  <h3 id="head">Hi, Angela!</h3>
                 </div>
                 <div className="col d-flex justify-content-end">
                   <button type="button" id="back-btn" className="btn btn-light">
@@ -165,100 +165,9 @@ function ViewTeachersInterface() {
                     </Link>
                   </button>
                 </div>
-                <div className="col-5 d-flex justify-content-end back-btn"></div>
               </div>
-            </div>
-            <div className="container questions">
-              <div className="row">
-                <div className="col-6 view-q-box">
-                  <div className="row">
-                    <div className="col view-label d-flex justify-content-start">
-                      QUESTION
-                    </div>
-                  </div>
-                  <div className="row">
-                    <div className="col view">
-                      Should social media platforms be banned from collecting
-                      their users' data?
-                    </div>
-                  </div>
-                  <div className="col bottom">
-                    <div className="row">
-                      <div className="col d-flex justify-content-end copy-btn">
-                        <button
-                          type="button"
-                          id="copy-btn"
-                          className="btn btn-light"
-                        >
-                          <Link to="" id="copy-lnk">
-                            Copy Link
-                          </Link>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="col view-className">
-                  <label for="classname" id="class-name">
-                    Class name:
-                  </label>
-                  <select className="form-select" id="classname-bar"></select>
-                </div>
-              </div>
-            </div>
-            <div className="col view-line"></div>
-            <div className="container view-deadline">
-              <div className="row"></div>
-              <div className="container deadline">
-                <div className="container">
-                  {" "}
-                  <div className="col justify-content-start deadline-label">
-                    DEADLINE
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-4 set-deadline">
-                    <span className="left-label">Date: </span>
-                    <span className="set">December 25. 2023</span>
-                  </div>
-                  <div className="col-4 set-deadline">
-                    <span className="left-label">Time: </span>
-                    <span className="set"> 7:00am - 11:59pm</span>
-                  </div>
-                  <div className="col-4 set-deadline">
-                    <span className="left-label">Time Limit: </span>
-                    <span className="set">2 hours/120 minutes</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="container view-menu">
-              <div className="row menu">
-                <div className="col-1 record-label">No.</div>
-                <div className="col-2 record-label">Name</div>
-                <div className="col-4 record-label">Email</div>
-                <div className="col-2 record-label">Score</div>
-                <div className="col-2 record-label">Action</div>
-              </div>
-              <div className="col view-line"></div>
-              <div className="row menu">
-                <div className="col-1 record">1</div>
-                <div className="col-2 record">Chayryjoy Bustamante</div>
-                <div className="col-4 record">
-                  Chayryjoy.bustamante@tup.edu.ph
-                </div>
-                <div className="col-2 record">96/100</div>
-                <div className="col-2 record">
-                  <button
-                    type="button"
-                    id="view-record-btn"
-                    className="btn btn-light"
-                  >
-                    <Link to="/viewAnswer" id="view-record-lnk">
-                      <span className="eyes">👁</span>VIEW
-                    </Link>
-                  </button>
-                </div>
+              <div className="col">
+                <h5>To create a class, click the "Add Class" button.</h5>
               </div>
             </div>
           </div>
@@ -268,4 +177,4 @@ function ViewTeachersInterface() {
   );
 }
 
-export default ViewTeachersInterface;
+export default ClassTeachersInterface;

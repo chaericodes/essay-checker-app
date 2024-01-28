@@ -155,7 +155,16 @@ function ViewAnswer() {
             <div className="container content">
               <div className="row">
                 {" "}
-                <div className="col d-flex justify-content-between">
+                <div className="col d-flex justify-content-start">
+                  <button
+                    type="button"
+                    id="back-view-btn"
+                    className="btn btn-light"
+                  >
+                    <Link to="/viewTeachersInterface" id="back-view-lnk">
+                      🡠
+                    </Link>
+                  </button>
                   <h3 id="head">Chayryjoy Bustamante</h3>
                 </div>
                 <div className="col-5 d-flex justify-content-end back-btn"></div>
