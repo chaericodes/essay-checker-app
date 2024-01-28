@@ -154,13 +154,12 @@ function AccountInfo() {
           <div className="container account">
             <div className="row">
               <div className="col">
-              <img src="./src/assets/account.png" id="prof" />
-              <div className="col-4" id="info">
-                <p id="accountName">Angela Nicole Pinlac</p>
-                <p id="accountEmail">angelanicole.pinlac@tup.edu.ph</p> 
-                <hr />
-
-              </div>
+                <img src="./src/assets/account.png" id="prof" />
+                  <div className="col-4" id="info">
+                    <p id="accountName">Angela Nicole Pinlac</p>
+                    <p id="accountEmail">angelanicole.pinlac@tup.edu.ph</p> 
+                      <div className="col q-line"></div>
+                  </div>
               </div>  
             </div>
           </div>

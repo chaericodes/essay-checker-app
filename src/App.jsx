@@ -7,9 +7,6 @@ import TeachersInterface from "./components/TeachersInterface";
 import AddQuestion from "./components/AddQuestion";
 import ViewTeachersInterface from "./components/ViewTeachersInterface";
 import ViewAnswer from "./components/ViewAnswer";
-import ClassTeachersInterface from "./components/ClassTeachersInterface";
-import ViewClassTeachersInterface from "./components/ViewClassTeachersInterface";
-import ViewClassButtonTeachersInterface from "./components/ViewClassButtonTeachersInterface";
 import AccountInfo from "./components/AccountInfo";
 import History from "./components/History";
 
@@ -29,24 +26,6 @@ function App() {
           element={<ViewTeachersInterface />}
         />
         <Route path="ViewAnswer" element={<ViewAnswer />} />
-        <Route
-          path="ViewTeachersInterface"
-          element={<ViewTeachersInterface />}
-        />
-        <Route
-          path="ClassTeachersInterface"
-          element={<ClassTeachersInterface />}
-        />
-        <Route
-          path="ViewClassTeachersInterface"
-          element={<ViewClassTeachersInterface />}
-        />
-        <Route
-          path="ViewClassButtonTeachersInterface"
-          element={<ViewClassButtonTeachersInterface />}
-        />
-        <Route path="AccountInfo" element={<AccountInfo />} />
-        <Route path="History" element={<History />} />
       </Routes>
     </BrowserRouter>
   );
