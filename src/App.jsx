@@ -14,7 +14,6 @@ import AccountInfo from "./components/AccountInfo";
 import History from "./components/History";
 
 import "./App.css";
-import AccountInfo from "./components/AccountInfo";
 
 function App() {
   return (

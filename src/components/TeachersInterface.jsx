@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./TeachersInterface.css";
 
-import FileInject from "./FileInject";
-
 function TeachersInterface() {
   return (
     <div className="custom-container">
@@ -112,7 +110,7 @@ function TeachersInterface() {
                 <div className="col">
                   {" "}
                   <button type="button" id="history-btn">
-                    <Link to="" id="history-lnk">
+                    <Link to="/history" id="history-lnk">
                       History
                     </Link>
                   </button>

@@ -82,7 +82,7 @@ function History() {
                 <div className="col">
                   {" "}
                   <button type="button" id="acc-btn">
-                    <Link to="" id="acc-lnk">
+                    <Link to="/accountInfo" id="acc-lnk">
                       Account Information
                     </Link>
                   </button>
