@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./AccountInfo.css";
 
-import FileInject from "./FileInject";
-
 function AccountInfo() {
   return (
     <div className="custom-container">

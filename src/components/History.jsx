@@ -2,8 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./History.css";
 
-import FileInject from "./FileInject";
-
 function History() {
   return (
     <div className="custom-container">

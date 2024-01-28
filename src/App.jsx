@@ -10,8 +10,11 @@ import ViewAnswer from "./components/ViewAnswer";
 import ClassTeachersInterface from "./components/ClassTeachersInterface";
 import ViewClassTeachersInterface from "./components/ViewClassTeachersInterface";
 import ViewClassButtonTeachersInterface from "./components/ViewClassButtonTeachersInterface";
+import AccountInfo from "./components/AccountInfo";
+import History from "./components/History";
 
 import "./App.css";
+import AccountInfo from "./components/AccountInfo";
 
 function App() {
   return (
@@ -43,6 +46,8 @@ function App() {
           path="ViewClassButtonTeachersInterface"
           element={<ViewClassButtonTeachersInterface />}
         />
+        <Route path="AccountInfo" element={<AccountInfo />} />
+        <Route path="History" element={<History />} />
       </Routes>
     </BrowserRouter>
   );
