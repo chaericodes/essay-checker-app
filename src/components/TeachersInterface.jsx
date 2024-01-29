@@ -58,7 +58,7 @@ function TeachersInterface() {
                 <div className="col">
                   {" "}
                   <button type="button" id="class-btn">
-                    <Link to="/classTeachersInterface" id="class-lnk">
+                    <Link to="/ClassTeachersInterface" id="class-lnk">
                       Class
                     </Link>
                   </button>
@@ -82,7 +82,7 @@ function TeachersInterface() {
                 <div className="col">
                   {" "}
                   <button type="button" id="acc-btn">
-                    <Link to="" id="acc-lnk">
+                    <Link to="/AccountInfo">
                       Account Information
                     </Link>
                   </button>
@@ -110,7 +110,7 @@ function TeachersInterface() {
                 <div className="col">
                   {" "}
                   <button type="button" id="history-btn">
-                    <Link to="/history" id="history-lnk">
+                    <Link to="/History" id="history-lnk">
                       History
                     </Link>
                   </button>
